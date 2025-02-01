@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div class="bg-gray-800 text-white w-64 p-4">
+            <h1 class="text-2xl font-bold mb-6">Dashboard</h1>
+            <ul>
+                <li class="mb-4"><a href="#" class="hover:text-gray-400">Home</a></li>
+                <li class="mb-4"><a href="#" class="hover:text-gray-400">Profile</a></li>
+                <li class="mb-4"><a href="#" class="hover:text-gray-400">Settings</a></li>
+                <li class="mb-4"><a href="#" class="hover:text-gray-400">Reports</a></li>
+                <li class="mb-4"><a href="#" class="hover:text-gray-400">Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-6">
+            <!-- Header -->
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-3xl font-semibold">Dashboard Overview</h2>
+                <div>
+                    <input type="text" placeholder="Search..." class="border rounded p-2">
+                </div>
+            </div>
+
+            <!-- Cards Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-semibold">Total Users</h3>
+                    <p>1,234</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-semibold">Active Sessions</h3>
+                    <p>567</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-semibold">Revenue</h3>
+                    <p>$1255</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-semibold">Card 1</h3>
+                    <p>Some information about Card 1.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-semibold">Card 2</h3>
+                    <p>Some information about Card 2.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-xl font-semibold">Card 3</h3>
+                    <p>Some information about Card 3.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
