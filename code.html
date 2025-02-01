@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Code - Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div class="bg-gray-800 text-white w-64 p-4">
+            <h1 class="text-2xl font-bold mb-6">Dashboard</h1>
+            <ul>
+                <li class="mb-4"><a href="index.html" class="hover:text-gray-400">Home</a></li>
+                <li class="mb-4"><a href="code.html" class="hover:text-gray-400">View Code</a></li>
+                <li class="mb-4"><a href="#" class="hover:text-gray-400">Profile</a></li>
+                <li class="mb-4"><a href="#" class="hover:text-gray-400">Settings</a></li>
+                <li class="mb-4"><a href="#" class="hover:text-gray-400">Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-6">
+            <!-- Header -->
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-3xl font-semibold">View Dashboard Code</h2>
+            </div>
+
+            <!-- Code Section -->
+            <div class="bg-white p-6 rounded shadow">
+                <h3 class="text-xl font-semibold mb-4">Dashboard HTML Code:</h3>
+                <pre class="bg-gray-800 text-white p-4 rounded text-sm overflow-x-auto">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Responsive Dashboard&lt;/title&gt;
+    &lt;link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"&gt;
+  &lt;/head&gt;
+  &lt;body class="bg-gray-100"&gt;
+
+    &lt;div class="flex h-screen"&gt;
+        &lt;!-- Sidebar --&gt;
+        &lt;div class="bg-gray-800 text-white w-64 p-4"&gt;
+            &lt;h1 class="text-2xl font-bold mb-6"&gt;Dashboard&lt;/h1&gt;
+            &lt;ul&gt;
+                &lt;li class="mb-4"&gt;&lt;a href="index.html" class="hover:text-gray-400"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="mb-4"&gt;&lt;a href="code.html" class="hover:text-gray-400"&gt;View Code&lt;/a&gt;&lt;/li&gt;
+                &lt;!-- Add other links --&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Main Content --&gt;
+        &lt;div class="flex-1 p-6"&gt;
+            &lt;!-- Header --&gt;
+            &lt;div class="flex justify-between items-center mb-6"&gt;
+                &lt;h2 class="text-3xl font-semibold"&gt;Dashboard Overview&lt;/h2&gt;
+                &lt;div&gt;
+                    &lt;input type="text" placeholder="Search..." class="border rounded p-2"&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Cards Section --&gt;
+            &lt;div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"&gt;
+                &lt;div class="bg-white p-4 rounded shadow"&gt;
+                    &lt;h3 class="text-xl font-semibold"&gt;Total Users&lt;/h3&gt;
+                    &lt;p&gt;1,234&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;!-- Add other cards --&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;
+                </pre>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
